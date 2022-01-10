@@ -1,0 +1,14 @@
+<div class="form-group">
+  <input class="form-control" id="documentTitle" placeholder="Yazılarda Ara" [(ngModel)]="searchText">
+</div>
+
+<div class="row">
+  <div *ngFor="let document of documents | documentSearch:searchText" class="boxMap" style="width: 18rem;">
+    <img [src]="document.imgUrl" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{document.title}}</h5>
+      <p class="card-text">{{document.description}}</p>
+      <a href="#" class="btn btn-primary">Devamını Oku</a>
+    </div>
+  </div>
+</div>

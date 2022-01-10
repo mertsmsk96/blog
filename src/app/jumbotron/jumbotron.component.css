@@ -1,0 +1,52 @@
+.jumbo{
+    background-color: #26c6da;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* text-shadow: 2px 0px 5px rgb(93, 103, 160); */
+}
+
+.iconKonum{
+    position: absolute;
+    left: 1300px;
+    top: 10px;
+    float: left;
+}
+.loginKonum{
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.fab {
+    padding: 8px;
+    font-size: 30px;
+    width: 44px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fab:hover {
+    opacity: 0.6;
+}
+.fa-facebook-f {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+ 
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+ 
+.fa-instagram {
+    background: #d10884;
+    color: white;
+}
+.icon-radius {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}

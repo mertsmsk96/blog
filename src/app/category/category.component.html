@@ -1,0 +1,13 @@
+<h3>{{title}}</h3>
+
+<div class="list-group">
+  <a class="list-group-item d-flex justify-content-between align-items-center list-group-item-action active" routerLink="documents">
+    Tüm Yazılar
+  </a>
+</div>
+
+<div class="list-group" *ngFor="let category of categories">
+    <a class="list-group-item d-flex justify-content-between align-items-center list-group-item-action" routerLink="documents/category/{{category.name}}">
+      {{category.name}}
+    </a>
+</div>
